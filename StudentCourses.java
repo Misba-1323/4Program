@@ -1,4 +1,4 @@
-package Program4;
+//package Program4;
 
 class StudentCourses { 
     String studentName; 
@@ -22,6 +22,10 @@ class StudentCourses {
         System.out.println("Registered Courses:"); 
         for (int i = 0; i < courses.length; i++) { 
             System.out.println("- " + courses[i]); 
+        } 
+         System.out.println("Marks :"); 
+        for (int i = 0; i < marks.length; i++) { 
+            System.out.println("- " + marks[i]); 
         } 
     } 
  
