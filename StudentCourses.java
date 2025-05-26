@@ -23,10 +23,6 @@ class StudentCourses {
         for (int i = 0; i < courses.length; i++) { 
             System.out.println("- " + courses[i]); 
         } 
-         System.out.println("Marks :"); 
-        for (int i = 0; i < marks.length; i++) { 
-            System.out.println("- " + marks[i]); 
-        } 
     } 
  
  
